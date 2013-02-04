@@ -1,0 +1,20 @@
+Tic Tac Toe
+------------
+
+Four Java classes:
+	- BoardCanvas.java
+	- TTTGame.java
+	- Computer.java
+	- TicTacToeApplet.java
+	
+Each class contains extensive JavaDoc comments.
+
+* Player MUST select opponent and player one's piece to begin.
+
+* It is a known issue that when the human player ties the computer,
+  the computer makes an additional move.  This issue should be resolved soon.
+  
+* TTTGame currently uses a two-dimensional array to keep track of moves.
+  Computer uses a one-dimensional array to determine the computer's move.
+  An update to TTTGame will use a one-dimensional array 
+  instead to simplify the program.
